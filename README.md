@@ -5,6 +5,12 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/Reckziegel/MomentMatching.svg?branch=master)](https://travis-ci.com/Reckziegel/MomentMatching)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/Reckziegel/MomentMatching?branch=master&svg=true)](https://ci.appveyor.com/project/Reckziegel/MomentMatching)
+[![R build
+status](https://github.com/Reckziegel/MomentMatching/workflows/R-CMD-check/badge.svg)](https://github.com/Reckziegel/MomentMatching/actions)
 <!-- badges: end -->
 
 `MomentMatching` ports the MATLAB package [Simulations with Exact Means
