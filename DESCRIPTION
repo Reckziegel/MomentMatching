@@ -17,3 +17,5 @@ Imports:
     matlab (>= 1.0.2),
     QZ (>= 0.1-9),
     stats (>= 4.0.2)
+URL: https://github.com/Reckziegel/MomentMatching
+BugReports: https://github.com/Reckziegel/MomentMatching/issues
