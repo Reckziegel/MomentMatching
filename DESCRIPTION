@@ -1,0 +1,19 @@
+Package: MomentMatching
+Type: Package
+Title: Simulations with Exact Means and Covariances
+Version: 0.0.9000
+Author: Bernardo Reckziegel
+Maintainer: Bernardo Reckziegel <bernardo_cse@hotmail.com>
+Description: MomentMatching ports the MATLAB library "Simulations with Exact 
+    Means and Covariances" into R. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
+RoxygenNote: 7.1.1
+Imports: 
+    MASS (>= 7.3-51.6),
+    matlab (>= 1.0.2),
+    QZ (>= 0.1-9),
+    stats (>= 4.0.2)
