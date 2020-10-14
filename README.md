@@ -11,6 +11,8 @@ status](https://travis-ci.com/Reckziegel/MomentMatching.svg?branch=main)](https:
 status](https://ci.appveyor.com/api/projects/status/h99iwqgi3r8usv3i?svg=true)](https://ci.appveyor.com/project/Reckziegel/momentmatching)
 [![R build
 status](https://github.com/Reckziegel/MomentMatching/workflows/R-CMD-check/badge.svg)](https://github.com/Reckziegel/MomentMatching/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/Reckziegel/MomentMatching/branch/master/graph/badge.svg)](https://codecov.io/gh/Reckziegel/MomentMatching?branch=master)
 <!-- badges: end -->
 
 `MomentMatching` ports the MATLAB package [Simulations with Exact Means
@@ -57,8 +59,8 @@ S <- A %*% t(A)
 ```
 
 Now, if we impose the additional assumption that the data generating
-process (DGP) is normally distributed and we try to get some data from
-the parameters at hand, we are left with:
+process (DGP) is normally distributed and try to get some data from the
+parameters at hand, we are left with:
 
 ``` r
 # generate sample of size J from multivariate normal N~(M,S)
